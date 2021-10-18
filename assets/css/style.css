@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300&display=swap');
+
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --gap: 3rem;
+}
+
+html
+{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+button
+{
+    all:unset;
+}
+
+body 
+{
+    font-family: 'Open Sans Condensed', sans-serif';
+}
+
+a 
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+}
+
+li
+{   
+    
+    list-style: none;
+  
+}
+
+p, li, a
+{
+    font-size: 1.6rem;
+} 
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 
+{
+    font-size: 2.5rem;
+
+}
+
+h2 
+{
+    font-size: 2.0rem;
+    
+}
+
+h3 
+{
+    font-size: 1.5rem;
+    
+}
+
+h4 
+{
+    font-size: 1.0rem;
+}
+
+h5
+{
+    font-size: 0.8rem;
+}
+
+h6
+{
+    font-size: 0.5rem;
+}
+
+.section{
+    height: 100vh;
+}
+
+.main-content
+{
+    padding: 10rem var(--gap);
+    margin: 0 auto;
+    max-width: 130rem;
+}
+
+.logo-menu{
+
+    width: 11rem;
+}
+
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    padding-top: 1rem;
+}
+
+.menu-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a{
+    cursor: pointer;
+    font-family: 'Open Sans';
+    display: block;
+    font-size: 1.6rem;
+    padding: 2rem;
+    color: #fff;
+}
+
+.main-bg{
+    background-size: cover;
+    background-image: url('../img/wallpaper.jpg') ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.intro-content
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text{
+    animation: none;
+}
+
+.intro-text p{
+    color: #fff;
+    font-size: 1.7rem;
+    font-family: 'Open sans';
+    position: relative;
+
+    top:9rem ;
+    left: 14rem;
+}
+
+
+.intro-text h1{
+    color: #fff;
+    letter-spacing: 1rem;
+    font-size: 20rem;
+}
+
+.intro-text p, h1{
+    text-shadow: 0px 0px 8px rgb(19, 21, 41, 0.3);
+}
+
+.cta{
+    font-family: 'Open Sans ', sans-serif;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: rgb(33, 33, 68);
+    border-radius: 5rem;
+    background: #fff;
+    padding: 1.2rem 3.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.cta:hover 
+{
+    box-shadow: 0px 0px 15px #fff;
+    
+}
